@@ -1,0 +1,176 @@
+$pink: #e91e63;
+
+@mixin pink-button {
+  background-color: pink;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  margin-left: 50px;
+  background-color: $pink;
+  border: none;
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
+}
+.page-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 10px 60px;
+  background-color: white;
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  a {
+    padding: 0px 30px;
+    text-decoration: none;
+    color: black;
+  }
+  button {
+    @include pink-button;
+  }
+}
+
+.homepage-container {
+  .welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://wp-themes.com/wp-content/themes/hestia/assets/img/slider1.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .text-wrapper {
+      text-align: center;
+      color: white;
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+    button {
+      @include pink-button;
+    }
+  }
+  .home-body-wrapper {
+    padding: 30px 50px;
+
+    .section1 {
+      display: flex;
+      flex-direction: column;
+      padding: 20px 100px;
+      text-align: center;
+      .three-boxes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        .box {
+          padding: 30px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          .icon-wrapper {
+            i {
+              font-size: 60px;
+              padding-bottom: 15px;
+            }
+          }
+          label {
+            font-size: 25px;
+          }
+          p {
+            font-size: 18px;
+            color: gray;
+          }
+        }
+      }
+    }
+    .section2 {
+      color: white;
+      height: 300px;
+      background-image: url("https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg");
+      background-attachment: fixed;
+      padding: 40px;
+      display: flex;
+      background-repeat: no-repeat;
+      background-size: cover;
+      // filter: brightness(.5);
+      h2 {
+        filter: brightness(1.5);
+        color: white;
+      }
+      .left-side {
+        width: 50%;
+      }
+      .right-side {
+        width: 50%;
+        img {
+          // height: auto;
+          max-width: 100%;
+          vertical-align: bottom;
+          width: auto;
+        }
+      }
+    }
+  }
+  .pre-section4 {
+    filter: brightness(.5);
+    background-image: url("https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section4 {
+    padding: 80px 100px;
+    color: white;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: -1620px;
+    i {
+      padding: 0px 15px;
+      font-size: 35px;
+    }
+  }
+}
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  // filter: brightness(.5);
+  .left-side {
+    padding: 0px 50px;
+  }
+  .right-side {
+    padding: 0px 50px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 40px;
+  }
+}
+
+
+// filter: brightness()

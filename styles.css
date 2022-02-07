@@ -1,0 +1,256 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.page-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 20px;
+  padding: 10px 60px;
+  background-color: white;
+}
+
+.navbar-wrapper .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-wrapper a {
+  padding: 0px 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-wrapper button {
+  background-color: pink;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  margin-left: 50px;
+  background-color: #e91e63;
+  border: none;
+  font-size: 15px;
+}
+
+.homepage-container .welcome-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(https://wp-themes.com/wp-content/themes/hestia/assets/img/slider1.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homepage-container .welcome-section .text-wrapper {
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.homepage-container .welcome-section button {
+  background-color: pink;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  margin-left: 50px;
+  background-color: #e91e63;
+  border: none;
+  font-size: 15px;
+}
+
+.homepage-container .home-body-wrapper {
+  padding: 30px 50px;
+}
+
+.homepage-container .home-body-wrapper .section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 100px;
+  text-align: center;
+}
+
+.homepage-container .home-body-wrapper .section1 .three-boxes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.homepage-container .home-body-wrapper .section1 .three-boxes .box {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.homepage-container .home-body-wrapper .section1 .three-boxes .box .icon-wrapper i {
+  font-size: 60px;
+  padding-bottom: 15px;
+}
+
+.homepage-container .home-body-wrapper .section1 .three-boxes .box label {
+  font-size: 25px;
+}
+
+.homepage-container .home-body-wrapper .section1 .three-boxes .box p {
+  font-size: 18px;
+  color: gray;
+}
+
+.homepage-container .home-body-wrapper .section2 {
+  color: white;
+  height: 300px;
+  background-image: url("https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg");
+  background-attachment: fixed;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homepage-container .home-body-wrapper .section2 h2 {
+  -webkit-filter: brightness(1.5);
+          filter: brightness(1.5);
+  color: white;
+}
+
+.homepage-container .home-body-wrapper .section2 .left-side {
+  width: 50%;
+}
+
+.homepage-container .home-body-wrapper .section2 .right-side {
+  width: 50%;
+}
+
+.homepage-container .home-body-wrapper .section2 .right-side img {
+  max-width: 100%;
+  vertical-align: bottom;
+  width: auto;
+}
+
+.homepage-container .pre-section4 {
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+  background-image: url("https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homepage-container .section4 {
+  padding: 80px 100px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  bottom: -1620px;
+}
+
+.homepage-container .section4 i {
+  padding: 0px 15px;
+  font-size: 35px;
+}
+
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.footer .left-side {
+  padding: 0px 50px;
+}
+
+.footer .right-side {
+  padding: 0px 50px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 40px;
+}
+/*# sourceMappingURL=styles.css.map */

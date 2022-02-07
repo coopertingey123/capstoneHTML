@@ -1,0 +1,23 @@
+@import "styles.scss";
+@import "contact.scss";
+
+.page-container {
+    .blog-page-container {
+        .blog-header-wrapper {
+            height: 400px;
+            background-color: $pink;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 50px;
+            font-weight: 600;
+        }
+        .content-wrapper {
+            padding: 50px 200px;
+            .group {
+                padding-bottom: 50px;
+            }
+        }
+    }
+}
